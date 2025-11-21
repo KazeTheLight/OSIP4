@@ -1,18 +1,32 @@
-# React + Vite
+# OSIP4 — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Template ini menyediakan setup minimal untuk membangun aplikasi React menggunakan Vite dengan dukungan HMR (Hot Module Replacement) dan konfigurasi ESLint dasar. Template ini telah disesuaikan untuk kebutuhan proyek **OSIP4**.
 
-Currently, two official plugins are available:
+## 🚀 Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Vite** sebagai bundler modern yang super cepat.
+* **React** dengan HMR untuk pengembangan yang lebih efisien.
+* Dukungan plugin resmi React:
 
-## React Compiler
+  * `@vitejs/plugin-react` (menggunakan Babel / oxc)
+  * `@vitejs/plugin-react-swc` (menggunakan SWC)
+* **React Compiler** sudah diaktifkan untuk optimasi komponen.
+* Struktur proyek rapi dan mudah dikembangkan untuk aplikasi OSIP4.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 📘 React Compiler
 
-Note: This will impact Vite dev & build performances.
+React Compiler telah diaktifkan dalam template ini. Fitur ini membantu meningkatkan performa React secara otomatis. Dokumentasi lengkap dapat dilihat pada situs resmi React.
 
-## Expanding the ESLint configuration
+> Catatan: Penggunaan React Compiler dapat memengaruhi performa saat proses development dan build.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📏 Pengaturan ESLint
+
+Untuk pengembangan aplikasi produksi, disarankan menggunakan **TypeScript** agar dapat memanfaatkan aturan lint yang lebih ketat dan aman.
+
+Jika Anda ingin menggunakan TypeScript, Anda dapat melihat template React + TypeScript dari Vite untuk integrasi TypeScript serta `typescript-eslint`.
+
+## 🎯 Tentang OSIP4
+
+Proyek ini dibuat sebagai bagian dari pengembangan sistem informasi dan aplikasi pendukung untuk **OSIP4 (Organisasi Siswa Intrasekolah SMKN 4 Padalarang)**. Dengan fondasi React + Vite, proyek OSIP4 dapat dikembangkan dengan cepat, modern, dan scalable.
+
+---
