@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import JadwalApelPage from "./pages/JadwalApelPage";
 import BeritaPage from "./pages/BeritaPage";
 import Home from "./pages/Home";
+import TentangKamiPage from "./pages/TentangKamiPage";
 
 function Layout({ children }) {
   const [scrolled, setScrolled] = useState(false);
@@ -44,6 +45,7 @@ function AppContent() {
       <Route path="/" element={<Home />} />
       <Route path="/jadwal-apel" element={<JadwalApelPage />} />
       <Route path="/berita" element={<BeritaPage />} />
+      <Route path="/tentang-kami" element={<TentangKamiPage />} />
     </Routes>
   );
 }
