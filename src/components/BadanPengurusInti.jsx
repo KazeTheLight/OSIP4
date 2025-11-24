@@ -1,13 +1,16 @@
 export default function BadanPengurusInti() {
   // Data Divisi
   const divisions = [
-    { name: "Pendidikan", id: "pendidikan" },
-    { name: "Humas", id: "humas" },
-    { name: "Sekretaris", id: "sekretaris" },
-    { name: "Bendahara", id: "bendahara" },
-    { name: "Media Kreatif", id: "media-kreatif" },
-    { name: "Riset & Teknologi", id: "riset-teknologi" },
-    { name: "PSDM", id: "psdm" },
+    { name: "Ketua Umum", id: "ketua-umum" },
+    { name: "Wakil Ketua Umum", id: "wakil-ketua-umum" },
+    { name: "Ketua Koordinator 1", id: "ketua-kordinator-1" },
+    { name: "Ketua Koordinator 2", id: "ketua-kordinator-2" },
+    { name: "Sekretaris Umum", id: "sekretaris-umum" },
+    { name: "Sekretaris 1", id: "sekretaris-1" },
+    { name: "Sekretaris 2", id: "sekretaris-2" },
+    { name: "Bendahara Umum", id: "bendahara-umum" },
+    { name: "Bendahara 1", id: "bendahara-1" },
+    { name: "Bendahara 2", id: "bendahara-2" },
   ];
 
   return (
