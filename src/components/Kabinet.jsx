@@ -18,14 +18,14 @@ export default function OurKabinet() {
     {
       name: "Ketua OSIP4",
       position: "Ketua OSIP4",
-      image: "/images/ketua.jpg", // Ganti dengan path gambar sesuai proyek Anda
+      image: "/ketua.jpeg", // Ganti dengan path gambar sesuai proyek Anda
       description:
         "Mewujudkan Himpunan Mahasiswa Teknik Informatika yang solid, inovatif, dan berdaya saing, serta menjadi wadah pengembangan diri bagi mahasiswa dalam aspek akademik maupun non-akademik secara berkelanjutan.",
     },
     {
       name: "Wakil Ketua OSIP4",
       position: "Wakil Ketua OSIP4",
-      image: "/images/wakil-ketua.jpg", // Ganti dengan path gambar sesuai proyek Anda
+      image: "/wakil.jpeg", // Ganti dengan path gambar sesuai proyek Anda
       description:
         "Mendorong kolaborasi antar mahasiswa melalui penyelenggaraan kegiatan akademik, riset, dan pengembangan teknologi yang partisipatif. Memperkuat solidaritas dan kebersamaan melalui kegiatan sosial, keorganisasian, dan pengabdian masyarakat yang inklusif.",
     },
